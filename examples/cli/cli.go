@@ -3,10 +3,11 @@ package cli
 import (
 	"context"
 	"flag"
-	"github.com/zmb3/spotify/v2"
-	spotifyauth "github.com/zmb3/spotify/v2/auth"
-	"golang.org/x/oauth2"
 	"log"
+
+	"github.com/JunNishimura/spotify/v2"
+	spotifyauth "github.com/JunNishimura/spotify/v2/auth"
+	"golang.org/x/oauth2"
 )
 
 var auth = spotifyauth.New(spotifyauth.WithRedirectURL("http://localhost:3000/login_check"))
