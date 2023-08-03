@@ -3,13 +3,14 @@ package main
 import (
 	"context"
 	"fmt"
-	spotifyauth "github.com/zmb3/spotify/v2/auth"
 	"log"
 	"os"
 
+	spotifyauth "github.com/JunNishimura/spotify/v2/auth"
+
 	"golang.org/x/oauth2/clientcredentials"
 
-	"github.com/zmb3/spotify/v2"
+	"github.com/JunNishimura/spotify/v2"
 )
 
 func main() {
