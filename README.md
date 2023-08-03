@@ -1,3 +1,5 @@
+**This is a modified and expanded version of [zmb3/spotify](https://github.com/zmb3/spotify)**
+**This is under Apache License 2.0**
 
 Spotify
 =======
